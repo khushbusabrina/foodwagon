@@ -1,0 +1,495 @@
+ /* all common css start */
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+ul,ol,dl{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin:0;
+    padding:0;
+    line-height:1.4;
+}
+
+
+     /* all common css end */
+     /* header part start  */
+    .navbar{
+        background:#FFFFFF;
+        margin: 21px 21px;
+    }
+    .navbar i{
+        color: #FFB30E;
+        font-family: 18px;
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+     .nav-item p{
+        font-size: 18px;
+        font-weight:700 ;
+        color: #424242;
+        line-height: 100%;
+        font-family: "Open Sans", sans-serif;
+        text-align: center;
+       
+        
+     }
+     .nav-item p span{
+         font-size: 18px;
+          font-weight:400 ;
+          color: #424242;
+          line-height: 140%;
+          font-family: "Open Sans", sans-serif !important;
+            text-align: center;
+        }
+         .srarchbtn{
+            font-family:  "Source Sans 3", sans-serif ;
+            font-size:18px;
+  
+            font-weight:700 ;
+            padding: 14px 20px;
+            border: none;
+            background: none;
+         }
+
+         .primarybtn{
+            font-family:"Source Sans 3", sans-serif ;
+            font-size:18px ;
+            font-weight:700 !important;
+            color: #FF8A00;
+            border-radius: 8px;
+            padding: 14px 30px;
+            background: #FFFFFF;
+            border: none;
+            box-shadow: 0px 5px 10px 0px rgba(255, 174, 0, 0.486);
+            
+           
+         }
+           
+      /* header part end */
+        /* banner part :start */
+        #banner{
+            background-image:url(../images/bannerbg.png) ;
+            height: 620px;
+            position: relative;
+        }
+        .container{
+            width: 1475px !important;
+        }
+
+        .bannerform{
+            background:#ffffff;
+            width: 720px;
+            height: 194.44px;
+            border-radius: 16px;
+            box-shadow: 0px 76px 98px 0px rgba(0, 0, 0, 0.04);
+        }
+        .bannercontent h1{
+            font-size:66px !important;
+            font-weight: 700;
+            color: #ffff;
+            margin-top: 132px;
+            margin-bottom: 15px;
+            font-family:"Source Sans 3", sans-serif ;
+        }
+        .bannercontent p{
+            font-size:18px !important;
+            font-weight: 400;
+            color: #504F4F;
+           
+            margin-bottom:32px;
+            font-family:"Source Sans 3", sans-serif ;
+        }
+            
+        .bannerimg{
+            margin-top:177px;
+            margin-left:45px;
+            position: relative;
+            
+           
+ 
+        }
+        
+        
+        .bannerimg::after{
+          position: absolute;
+          content: "";
+          height: 90%;
+          width: 90%;
+          background-color: #000000;
+          border-radius: 50%;
+          opacity: 0.1;
+          top: 50px;
+          left: 35px;
+          
+        }
+
+        .delivary{
+            font-size: 16px;
+            font-weight: 700;
+            color: #F17228;
+            padding: 10px 24px;
+            background-color:  rgba(241, 114, 40, 0.3);
+            border-radius: 8px;
+            border: none;
+            margin: 24px 8px 24px 24px;
+             font-family:"Source Sans 3", 
+        }
+        .pickup{
+            font-size: 16px;
+            font-weight: 700;
+            color: #757575;
+            padding: 10px 24px;
+            background-color: transparent;
+            border-radius: 8px;
+            border: none;
+            margin-top: 24px;
+            margin-bottom: 24px;
+             font-family:"Source Sans 3", 
+        }
+        .labelbtn{
+             font-size: 16px;
+            font-weight: 700;
+            color: white;
+            padding: 10px 24px;
+            
+            border-radius: 8px;
+            border: none;
+             font-family:"Source Sans 3";
+           
+            background: linear-gradient(90deg,rgba(255, 122, 122, 0.97) 0%, rgba(246, 90, 0, 0.959) 100%);
+            margin-left:16px;
+            
+           
+        } 
+        form{
+            margin-left: 24px;
+             margin-top: 25px;
+        }
+        .bannerinput{
+            padding-top:7px ;
+            padding-left:46px ;
+            padding-bottom: 8px;
+            padding-right: 282px;
+            border-radius: 8px;
+            outline:0;
+            border: none;
+            background-color:#F5F5F5 ;
+            height: 49px;
+           
+        }
+        .bannerinput::placeholder{
+            font-size: 16px;
+            font-weight:400 ;
+            color: #9E9E9E;
+             font-family:"Source Sans 3", 
+        }
+        .bannerform{
+            position: relative;
+        }
+        .bannerform::after{
+            position: absolute;
+            content: "";
+            height: 2px;
+            width: 100%;
+            background-color: #F5F5F5;
+            bottom: 100px;
+
+        }
+        .bannericon i{
+            color: #FF7474;
+            font-size: 20px;
+            position: absolute;
+            bottom: 42px;
+            left: 40px;
+        }
+
+
+        /* banner part end */
+        /* deal part start */
+        #deal{
+            padding-top: 80px;
+            padding-bottom: 88px;
+        }
+        .dealcard{
+            position: relative;
+
+           
+        }
+        .dealpercent{
+            height:83px;
+            width: 140px;
+          background-color: #FFB30E;
+          font-family:"Source Sans 3"; 
+          border-top-right-radius: 32px;
+          position: absolute;
+          border-bottom-left-radius:16px;
+          left: 0;
+          bottom: 88px;
+
+        }
+        .dealh4pwrapper{
+            display: flex;
+          
+            flex-direction: column;
+            gap: 0px;
+            align-items: flex-start;
+        }
+
+       .dealh3 h3{
+            color: #FFFFFF;
+            font-size:68px ;
+            font-weight:700 ;
+            margin-left: 18px;
+            
+        }
+        .dealh4 {
+          color: #FFFFFF;
+            font-size:30px ;
+            font-weight:700 ;
+            padding-top: 5px;
+
+        }
+        .dealp p{
+            color: #FFFFFF;
+            font-size:22px ;
+            font-weight:400 ;
+            padding-bottom: 13px;
+        }
+        .dealpercent{
+            display: flex;
+            align-items: center;
+        }
+        .dealcard img{
+            border-radius: 16px;
+            
+            object-fit: cover;
+        }
+        .dealcard-title{
+            font-size:18px;
+            font-weight:700;
+             font-family:"Source Sans 3"; 
+            color:#424242 ;
+            padding-top:10px;
+
+        }
+        .dealbtn{
+            color: #F17228;
+            font-family:"Source Sans 3" ;
+            font-size: 18px;
+            font-weight: 700;
+            line-height: 120%;
+            border-radius: 8px;
+            background-color: rgba(241, 114, 40, 0.3);
+            border: none;
+            padding: 8px 16px;
+            margin-top:15px;
+        }
+          /* deal part end */
+            
+
+          /* how does it work section start */
+          #work{
+             background: linear-gradient(to bottom,rgba(241, 114, 40, 0.12) 0%,rgba(255, 255, 255, 0.879) 100%);
+            margin-left:16px;
+            height: 500px;
+            padding-top: 80px;
+            padding-bottom: 80px;
+           
+          }
+          .workpartwrapper{
+            margin-left:50px ;
+            margin-right:50px ;
+          }
+          .workpartwrapper h3{
+            text-align: center;
+             font-size: 43px;
+            font-weight:700 ;
+            font-family:"Source Sans 3" ;
+            color: #F17228;
+            margin-bottom: 71px;
+
+          }
+          .workcardimg{
+           
+            text-align: center;
+          }
+          .workcardimg h4{
+            font-size: 22px;
+            font-weight: 700;
+            font-family:"Source Sans 3" ;
+          }
+           .workcardimg p{
+              font-size:18px;
+            font-weight: 400;
+            font-family:"Source Sans 3" ;
+            color: #9E9E9E;
+          
+           
+           
+           }
+           #popularitems{
+             padding-top: 80px; 
+           }
+           #popularitems h4{
+           text-align: center;
+           font-size: 43px;
+           font-weight: 700;
+           color:#212121 ;
+           margin-bottom: 88px;
+           
+        
+           }
+        
+          /* how does it work section end */
+            
+
+          /* popular items start  */
+          .popularitemswrapper{
+            display: flex;
+            justify-content: space-between;
+          }
+           .popuimg{
+            border-radius: 16px;
+            height: 240px;
+           width:240px;
+           }
+          .itemcard h5{
+             font-size: 22px;
+            font-weight: 700;
+            font-family:"Source Sans 3" ;
+            color: #424242;
+            margin-top: 16px;
+            margin-bottom: 8px;
+          }
+         .itemcard p{
+            font-size: 22px;
+            font-weight:400;
+            font-family:"Source Sans 3" ;
+            color: #FFB30E;
+
+         }
+         .itemcard h6{
+            font-size: 22px;
+            font-weight:700;
+            font-family:"Source Sans 3" ;
+            color: #212121;
+            margin-top:8px ;
+            margin-bottom:16px ;
+         }
+         .popubtn{
+            padding:15px 69px ;
+            font-size: 18px;
+            font-weight:700;
+            font-family:"Source Sans 3" ;
+            color: #FFFFFF;
+            background-color: #F17228;
+            border-radius: 8px;
+            border: none;
+
+         }
+
+
+          /* popular items end */
+          #feature{
+            margin-top: 80px;
+            margin-bottom: 80px;
+          }
+          .featurecontent h4{
+            font-size:43px;
+            font-weight: 700;
+            font-family:"Source Sans 3";
+            text-align: center;
+            margin-bottom: 88px;
+
+           }
+
+
+          /* featured part start */
+          .featuremain{
+            position: relative;
+ 
+          }
+          .salewrapper{
+            display: flex;
+            gap: 8px;
+            position: absolute;
+            left:24px;
+            top: 24px;
+          }
+          .offer{
+            font-size:18px;
+            font-weight:700 ;
+            padding: 8px 16px;
+            background-color:#F17228 ;
+            border-radius: 8px;
+            height: 42px;
+            width: 134px;
+            color: white;
+          }
+          .time{
+            font-size:18px;
+            font-weight:700 ;
+            padding: 8px 16px;
+            background-color:#FFB30E;
+            border-radius: 8px;
+            height: 42px;
+            width: 101px;
+            color: white;
+
+          }
+          .mainimg{
+            border-radius: 20px;
+            height: 290px;
+            width: 320px;
+            
+          }
+           .fitureratingwrape{
+            display: flex;
+            gap: 24px;
+            margin-top: 24PX;
+           }
+          .opennow{
+            padding:8px 16px;
+            color: #79B93C;
+            font-size: 22PX;
+            font-family:"Source Sans 3";
+            font-weight:700 ;
+            border: none;
+            background-color:rgba(120, 185, 60, 0.20);
+            border-radius:16PX ;
+            margin-top: 32PX;
+          }
+           .ratingwrape h5{
+             font-size: 22PX;
+            
+            font-weight:700 ;
+            color: #424242;
+           }
+          .ratingwrape p{
+            font-size: 22px;
+            color: #FFB30E;
+          }
+         
+           
+          
+          .opentommrow{
+            padding:8px 16px;
+            color: #F17228;
+            font-size: 22PX;
+            font-family:"Source Sans 3";
+            font-weight:700 ;
+            border: none;
+            background-color:rgba(241, 114, 40, 0.2);
+            border-radius:16PX ;
+            margin-top: 32PX;
+          }
+          /* featured part end */
+
